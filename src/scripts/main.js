@@ -4,9 +4,9 @@ import {
   eliminarProducto, 
   leerLocalStorage,
   vaciarCarrito
-} from './checkout';
+} from 'src/scripts/checkout.js';
 
-import {  comprarProducto } from './store';
+import {  comprarProducto } from 'src/scripts/store.js';
 
 const btn = document.getElementsByClassName('btn1');
 
@@ -42,10 +42,10 @@ const listaDeProductos = document.getElementById('lista-productos');
 function cargarEventos() { 
   const ruta = String(location.href)
 
-   if (ruta.includes('checkout.html')) {
+  if(ruta.includes('store.html')) {
+      esIndex()
+  } else if (ruta.includes('checkout.html')) {
       esCarrito()
-  } else{
-    esIndex()
   }
 }
 
