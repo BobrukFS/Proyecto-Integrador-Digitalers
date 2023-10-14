@@ -42,7 +42,7 @@ const listaDeProductos = document.getElementById('lista-productos');
 function cargarEventos() { 
   const ruta = String(location.href)
 
-  if(ruta.includes('store.html')) {
+  if(!ruta.includes('store.html')) {
       console.log("Estoy en tienda")
       esIndex()
   } else if (ruta.includes('checkout.html')) {
