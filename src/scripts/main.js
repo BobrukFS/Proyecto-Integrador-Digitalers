@@ -42,10 +42,10 @@ const listaDeProductos = document.getElementById('lista-productos');
 function cargarEventos() { 
   const ruta = String(location.href)
 
-  if(ruta.includes('https://main--benevolent-chimera-d8b258.netlify.app/src/pages/store')) {
+  if(ruta.includes('/store')) {
       console.log("Estoy en tienda")
       esIndex()
-  } else if (ruta.includes('https://main--benevolent-chimera-d8b258.netlify.app/src/pages/checkout')){
+  } else if (ruta.includes('/checkout')){
     console.log("Estoy en carrito")
       esCarrito()
   }
