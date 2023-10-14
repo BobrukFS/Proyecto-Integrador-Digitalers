@@ -4,9 +4,9 @@ import {
   eliminarProducto, 
   leerLocalStorage,
   vaciarCarrito
-} from 'src/scripts/checkout.js';
+} from './checkout';
 
-import {  comprarProducto } from 'src/scripts/store.js';
+import {  comprarProducto } from './store';
 
 const btn = document.getElementsByClassName('btn1');
 
