@@ -43,8 +43,10 @@ function cargarEventos() {
   const ruta = String(location.href)
 
   if(ruta.includes('store.html')) {
+      console.log("Estoy en tienda")
       esIndex()
   } else if (ruta.includes('checkout.html')) {
+    console.log("Estoy en carrito")
       esCarrito()
   }
 }
