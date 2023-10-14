@@ -45,7 +45,7 @@ function cargarEventos() {
   if(ruta.includes('https://main--benevolent-chimera-d8b258.netlify.app/src/pages/store')) {
       console.log("Estoy en tienda")
       esIndex()
-  } else if ('https://main--benevolent-chimera-d8b258.netlify.app/src/pages/checkout'){
+  } else if (ruta.includes('https://main--benevolent-chimera-d8b258.netlify.app/src/pages/checkout')){
     console.log("Estoy en carrito")
       esCarrito()
   }
