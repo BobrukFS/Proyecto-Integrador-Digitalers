@@ -1,0 +1,8 @@
+
+Nombre y Apellido: Exequiel Bobruk
+
+URL del repositorio de GitHub: https://github.com/BobrukFS/Ecommerce-Cake
+
+URL del proyecto subido a Netlify: https://shopsweetcake.netlify.app/
+
+URL Figma-Ecalidraw (Wireframe): https://www.figma.com/file/doPQT2nNaRgYhW7amSMIEl/Untitled?type=design&node-id=0%3A1&mode=design&t=aoxA634WOgvyNsrM-1
