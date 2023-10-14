@@ -42,7 +42,7 @@ const listaDeProductos = document.getElementById('lista-productos');
 function cargarEventos() { 
   const ruta = String(location.href)
 
-  if(!ruta.includes('https://main--benevolent-chimera-d8b258.netlify.app/src/pages/contact')) {
+  if(!ruta.includes('https://main--benevolent-chimera-d8b258.netlify.app/src/pages/checkout')) {
       console.log("Estoy en tienda")
       esIndex()
   } else {
