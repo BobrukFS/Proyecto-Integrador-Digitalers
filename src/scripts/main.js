@@ -42,10 +42,10 @@ const listaDeProductos = document.getElementById('lista-productos');
 function cargarEventos() { 
   const ruta = String(location.href)
 
-  if(ruta.includes('store.html')) {
-      esIndex()
-  } else if (ruta.includes('checkout.html')) {
+   if (ruta.includes('checkout.html')) {
       esCarrito()
+  } else{
+    esIndex()
   }
 }
 
